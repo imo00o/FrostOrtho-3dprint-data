@@ -23,15 +23,21 @@ v1.0.0から細かな改善をしたもの。
 | 部品名 | 説明 | 参考購入先 |
 | -- | -- | -- |
 | スポンジシート(3mm) | ボトムケースに敷くスポンジシート。ポロンスポンジがへたりにくくておすすめです。 | https://www.amazon.co.jp/dp/B00G468722?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1 |
-| スポンジシート(2mm) | トップケースに貼るスポンジシート。使いやすくてテープ状のものを使用していますが、2mmくらいの厚さであればなんでも。 | https://www.amazon.co.jp/dp/B0DDJDYVHX?ref_=ppx_hzsearch_conn_dt_b_fed_asin_title_5&th=1 |
+| スポンジシート(2mm) | トップケースに貼るスポンジシート。使いやすくてテープ状のものを使用していますが、2mmくらいの厚さであればなんでも。<br> 透明ケースの場合は魔法のテープみたいなのが主張しなくて弾力があっていいかもです。 | https://www.amazon.co.jp/dp/B0DDJDYVHX?ref_=ppx_hzsearch_conn_dt_b_fed_asin_title_5&th=1 |
 | マグネット(直径2mm × 厚さ1mm) | トラックボールケースとトップケースを着脱可能にするための磁石 | https://www.amazon.co.jp/dp/B0FXB1RH63?ref_=ppx_hzsearch_conn_dt_b_fed_asin_title_1&th=1 |
 | ベアリング(外形4mm 内径1.5mm 幅2mm) | トラックボールのベアリング | https://www.amazon.co.jp/dp/B0836S5376?ref_=ppx_hzsearch_conn_dt_b_fed_asin_title_6&th=1 |
 | ネジ(M1.4 × 4~5mm) | ベアリングを固定するねじ | https://www.amazon.co.jp/dp/B076ZCH1NJ?ref_=ppx_hzsearch_conn_dt_b_fed_asin_title_1 |
 
 #### 取り付け方
-- ボトムケース
-- トップケース
-- トラックボールケース
+- ボトムケース  
+  3mmのスポンジシートを7.5mmくらいの幅にカットします。  
+  片面に両面テープを貼ってから切ると貼り付けるのが楽です。  
+ ![alt text](./img/image-4.jpg)  
+凹みのある部分にスポンジシートを貼り付けます。  
+ ![alt text](./img/image-bottom.jpg)  
+- トップケース  
+  2mmのスポンジシートを小さくカットして画像の位置に貼ってください。  
+   ![alt text](./img/image-top.jpg)  
 
 ## 発注方法（JLC3DP）
 [JLC3DP](https://jlc3dp.com/jp?spm=Jlc3dp.Homepage.1001)での発注方法について簡単に紹介します。UIは更新される可能性があります。

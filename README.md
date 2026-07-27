@@ -1,7 +1,10 @@
 # FrostOrtho-3dprint-data
 個人利用の範囲でしたら自由に使用・改変いただけます。  
 
+※ 自宅のBambuLab a1miniでプリントする用に作成しているデータであるため、機種や素材、印刷方式によって寸法に差異が出て使用できない可能性があります。 
+
 ## バージョン
+ケースは頒布時期によって互換性があるため確認してください。  
 - v1.2.0  
 2026年6月22日以降に頒布しているケース。  
 v1.2.0から基板や一部パーツが変更されたためv1.1.0以前と互換性なし。  
@@ -18,38 +21,44 @@ v1.1.0と互換性があるのでv1.1.0の使用をおすすめします。
 試作段階のもの。  
 電源スイッチが少し奥にあるため現行のケースとトップケースが少し異なるためv1.0.0以降と互換性がありません。  
 
-## ケース作成
-### v1.1.0 ～ v1.2.0
-ケースを印刷/発注しただけでは使用できず、別途スポンジやマグネット等の取り付けが必要になります。
+## ケース作成（v1.1.0 ～ v1.2.0）
+### プリント・発注が必要なもの
+| 部品番号 | 部品名 | 数 | 3Dプリント用ファイル名 | 発注用ファイル名 |
+| ---- | ---- | ---- | ---- | ---- |
+| 1 | トップケース | 2（左右） | /case/vX.Y.Z/3mf/case_top.3mf | /case/vX.Y.Z/stl/case_top_L.stl, case_top_R.stl |
+| 2 | ボトムケース | 2（左右） | /case/vX.Y.Z/3mf/case_bottom.3mf | /case/vX.Y.Z/stl/case_bottom_L.stl, case_bottom_R.stl |
+| 3 | スイッチプレート | 2（左右） | /case/vX.Y.Z/3mf/switch_plate.3mf | /case/vX.Y.Z/stl/switch_plate_L.stl, switch_plate_R.stl |
+| 4 | スイッチカバー | 2 | /case/vX.Y.Z/3mf/power_slide.3mf | - |
+| 5 | リセットスティック | 2 | /case/vX.Y.Z/3mf/reset_stick.3mf | - |
+| 6 | ノブ | 1 | /case/vX.Y.Z/3mf/nob.3mf | /case/vX.Y.Z/stl/nob.stl |
+| 7 | トラックボールカバー | 1 | /case/vX.Y.Z/3mf/trabo_case.3mf | /case/vX.Y.Z/stl/trabo_case.stl |  
+| 8 | センサーモジュール固定パーツ | 1 | /case/vX.Y.Z/3mf/paw3222.3mf | /case/vX.Y.Z/stl/paw3222.stl |
+| 9 | キーキャップ(ノーマル) | 34 | /keycap/3mf/keycaps.3mf | /keycap/stl/keycap_nomal_mjf.stl |
+| 10 | キーキャップ(ホーミング) | 2 | /keycap/3mf/keycaps.3mf | /keycap/stl/keycap_flat_mjf.stl |
+| 11 | キーキャップ(コンベックス) | 5 | /keycap/3mf/keycaps.3mf | /keycap/stl/keycap_flat_mjf.stl |
 
-#### 必要なもの
+※ keycap_nomal_mjf.stl、keycap_flat_mjf.stl はMJF(PA12S-HP)でちょうどいいですが、8001レジン(半透明)では少し緩くクリアスプレーを吹くといい感じでした。ほかの素材は不明です。  
+※ スイッチカバー、リセットスティックはパーツが小さすぎるため連結する等しなければ発注できません（いつか連結したデータアップし、、ます、、いつか、、）
+
+### 別途必要なもの
+自作キット(ケースなし)をご購入いただいた方は以下パーツはキットに含まれています。
 | 部品名 | 説明 | 参考購入先 |
 | -- | -- | -- |
 | スポンジシート(3mm) | ボトムケースに敷くスポンジシート。ポロンスポンジがへたりにくくておすすめです。 | https://www.amazon.co.jp/dp/B00G468722?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1 |
 | スポンジシート(2mm) | トップケースに貼るスポンジシート。使いやすくてテープ状のものを使用していますが、2mmくらいの厚さであればなんでも。<br> 透明ケースの場合は100均等にある透明の両面テープが見た目綺麗でおすすめです。 | https://www.amazon.co.jp/dp/B0DDJDYVHX?ref_=ppx_hzsearch_conn_dt_b_fed_asin_title_5&th=1 |
 | マグネット(直径2mm × 厚さ1mm) | トラックボールケースとトップケースを着脱可能にするための磁石 | https://www.amazon.co.jp/dp/B0FXB1RH63?ref_=ppx_hzsearch_conn_dt_b_fed_asin_title_1&th=1 |
 | ベアリング(外形4mm 内径1.5mm 幅2mm) | トラックボールのベアリング | https://www.amazon.co.jp/dp/B0836S5376?ref_=ppx_hzsearch_conn_dt_b_fed_asin_title_6&th=1 |
-| ネジ(M1.4 × 4~5mm) | ベアリングを固定するねじ | https://www.amazon.co.jp/dp/B076ZCH1NJ?ref_=ppx_hzsearch_conn_dt_b_fed_asin_title_1 |
+| ネジ(M1.4 × 4~5mm) | ベアリングを固定するねじ。リンク先のものは違いますが、マグネットとくっつくタイプのものだとよいです。 | https://www.amazon.co.jp/dp/B076ZCH1NJ?ref_=ppx_hzsearch_conn_dt_b_fed_asin_title_1 |
 
-#### 取り付け方
-- ボトムケース  
-  3mmのスポンジシートを7.5mmくらいの幅にカットします。  
-  片面に両面テープを貼ってから切ると貼り付けるのが楽です。  
- ![alt text](./img/image-4.jpg)  
-凹みのある部分にスポンジシートを貼り付けます。  
- ![alt text](./img/image-bottom.jpg)  
-- トップケース  
-  2mmのスポンジシートを小さくカットして画像の位置に貼ってください。  
-   ![alt text](./img/image-top.jpg)  
 
 ## 発注方法（JLC3DP）
-[JLC3DP](https://jlc3dp.com/jp?spm=Jlc3dp.Homepage.1001)での発注方法について簡単に紹介します。UIは更新される可能性があります。
+[JLC3DP](https://jlc3dp.com/jp?spm=Jlc3dp.Homepage.1001)での発注方法について簡単に紹介します。UIは更新される可能性があります。  
 
 1. アカウント登録を済ませて発注画面へ
 ![alt text](./img/image.png)
 2. STLファイルをアップロード
 ![alt text](./img/image-1.png)
-3. 「使用を編集」をクリック
+3. 「仕様を編集」をクリック
 4. 好きな素材を選びます。以下ご参考ください。
    - クリア：SLA(Resin) > 8001レジン > 透明 > オイルスプレー仕上げ  
     表面を削った後にオイルスプレーするので品質にばらつきがあるものの、そのまま組み立てれて綺麗です。  
@@ -72,3 +81,58 @@ v1.1.0と互換性があるのでv1.1.0の使用をおすすめします。
 11. 発注履歴から支払いをすれば製作開始されます。
 12. 製作途中で確認メールが届くことがあるので、届いたら都度対応します。
 13. 「Your JLCPCB Order Is On Its Way To You」のメールが届いたらあとは届くのを待つだけです！
+
+## 組み立て方法
+#### ボトムケース  
+3mmのスポンジシートを7.5mmくらいの幅にカットします（キットはカット済みのシートが入っています）。  
+片面に両面テープを貼ってから切ると貼り付けるのが楽です。  
+![alt text](./img/image-4.jpg)  
+凹みのある部分に合わせてさらにスポンジシートをカットして、貼り付けます。  
+![alt text](./img/image-bottom.jpg)  
+
+#### トップケース  
+2mmのスポンジシートをカットして画像の黒い位置に貼り付けます。  
+![alt text](./img/image-top.jpg)  
+
+#### トラボケース
+キットの場合、短く先端が尖っていない方のネジをトップケースに3か所ネジ止めしてください。  
+マグネットとくっつくタイプのM1.4ネジであれば何でも大丈夫です。もしくは2mm×1mmのマグネットでも問題ありません。  
+![alt text](./img/case_trabo_1.jpg)  
+
+長くて先端が尖っている方のネジでベアリングを3か所取り付けてください。  
+手動でゆっくりめにネジを回して取り付けてください。  
+
+トラックボールを置いて回してみて、滑らかに回らない場合はネジの締め具合を調整してください。  
+![alt text](./img/case_trabo_2.jpg)  
+
+トラックボールケースの凹みに接着剤を塗布し、マグネットを取り付けます。  
+トップケース側にネジでなくマグネットを取り付けた場合、磁石が反発しない向きで取り付けるよう注意してください。  
+![alt text](./img/case_trabo_3.jpg)  
+
+トラックボールケースとトップケースがマグネットでくっつけばケースは完成です。
+
+
+## アルミケース
+プラスチックケースごと、上からすぽっとはめて使用するチルト用アルミケースです。  
+チルト部分が結構重くなるので、質量のおかげで打鍵感・打鍵音がよくなる気がしてます。持ち運びには向いていません、とても重い。  
+
+[アルミケースデータ](./aluminum-case/)  
+チルトの角度変えたい場合はstepファイル修正してください。
+
+![alt text](./img/image-alumi.jpg)
+
+### 発注
+[JLCCNC](https://jlccnc.com/jp/cnc-machining-quote)で発注できます。JLC3DPの発注手順とほぼ同じです。  
+これも薄すぎる部分があると指摘メールきますが、リスクを許容します～と返信しています。今のところ大丈夫だったことしかないですが、ちぎれたらすみません。。
+![alt text](./img/image-alumi-menu.png)
+
+表面仕上げなどなどお好みで指定してください。私が試したことあるのはこちら↓
+- Bead blasting + Anodizing natural マット  
+  サラサラした感じで少し白っぽい。傷がつきやすい気がしました。  
+  ![alt text](./img/image-alumi-matte.jpg)  
+- Anodizing natural 光沢  
+  ツルツルでしっかり光沢感があります。光沢の方がアルミっぽくて好きでした。  
+  beadblastingかbrushingはした方がいいかも、気になるほどじゃないもののよく見たら傷があったりはしました。  
+  ![alt text](./img/image-alumi-grossy.jpg)
+
+データアップロードして仕様を指定すると正確な価格出ますが、3万円くらい、、します、、

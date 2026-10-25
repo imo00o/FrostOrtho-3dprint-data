@@ -47,7 +47,7 @@ v1.1.0と互換性があるのでv1.1.0の使用をおすすめします。
 | スポンジシート(3mm) | ボトムケースに敷くスポンジシート。ポロンスポンジがへたりにくくておすすめです。 | https://www.amazon.co.jp/dp/B00G468722?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1 |
 | スポンジシート(2mm) | トップケースに貼るスポンジシート。使いやすくてテープ状のものを使用していますが、2mmくらいの厚さであればなんでも。<br> 透明ケースの場合は100均等にある透明の両面テープが見た目綺麗でおすすめです。 | https://www.amazon.co.jp/dp/B0DDJDYVHX?ref_=ppx_hzsearch_conn_dt_b_fed_asin_title_5&th=1 |
 | マグネット(直径2mm × 厚さ1mm) | トラックボールケースとトップケースを着脱可能にするための磁石 | https://www.amazon.co.jp/dp/B0FXB1RH63?ref_=ppx_hzsearch_conn_dt_b_fed_asin_title_1&th=1 |
-| ベアリング(外形4mm 内径1.5mm 幅2mm) | トラックボールのベアリング | https://www.amazon.co.jp/dp/B0836S5376?ref_=ppx_hzsearch_conn_dt_b_fed_asin_title_6&th=1 |
+| ベアリング(外形4mm 内径1.5mm 幅2mm) | トラックボールのベアリング | https://www.amazon.co.jp/dp/B0CV75YFQY?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1 |
 | ネジ(M1.4 × 4~5mm) | ベアリングを固定するねじ。リンク先のものは違いますが、マグネットとくっつくタイプのものだとよいです。 | https://www.amazon.co.jp/dp/B076ZCH1NJ?ref_=ppx_hzsearch_conn_dt_b_fed_asin_title_1 |
 
 
@@ -97,7 +97,7 @@ v1.1.0と互換性があるのでv1.1.0の使用をおすすめします。
 
 #### トラボケース
 キットの場合、短く先端が尖っていない方のネジをトップケースに3か所ネジ止めしてください。  
-マグネットとくっつくタイプのM1.4ネジであれば何でも大丈夫です。もしくは2mm×1mmのマグネットでも問題ありません。  
+マグネットとくっつくタイプのM1.4ネジであれば何でも大丈夫です。もしくは2mm×1mmのマグネットでも問題ありません(マグネットの方が磁力強くていいかも、極性に気を付けて接着剤で取り付けてください)。  
 ![alt text](./img/case_trabo_1.jpg)  
 
 長くて先端が尖っている方のネジでベアリングを3か所取り付けてください。  

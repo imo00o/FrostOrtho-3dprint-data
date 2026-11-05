@@ -33,14 +33,14 @@ v1.1.0と互換性があるのでv1.1.0の使用をおすすめします。
 ### プリント・発注が必要なもの
 | 部品番号 | 部品名 | 数 | 3Dプリント用ファイル名 | 発注用ファイル名 |
 | ---- | ---- | ---- | ---- | ---- |
-| 1 | トップケース | 2（左右） | /case/vX.Y.Z/3mf/case_top.3mf | /case/vX.Y.Z/stl/case_top_L.stl, case_top_R.stl |
-| 2 | ボトムケース | 2（左右） | /case/vX.Y.Z/3mf/case_bottom.3mf | /case/vX.Y.Z/stl/case_bottom_L.stl, case_bottom_R.stl |
-| 3 | スイッチプレート | 2（左右） | /case/vX.Y.Z/3mf/switch_plate.3mf | /case/vX.Y.Z/stl/switch_plate_L.stl, switch_plate_R.stl |
-| 4 | スイッチカバー | 2 | /case/vX.Y.Z/3mf/power_slide.3mf | - |
-| 5 | リセットスティック | 2 | /case/vX.Y.Z/3mf/reset_stick.3mf | - |
-| 6 | ノブ | 1 | /case/vX.Y.Z/3mf/nob.3mf | /case/vX.Y.Z/stl/nob.stl |
-| 7 | トラックボールカバー | 1 | /case/vX.Y.Z/3mf/trabo_case.3mf | /case/vX.Y.Z/stl/trabo_case.stl |  
-| 8 | センサーモジュール固定パーツ | 1 | /case/vX.Y.Z/3mf/paw3222.3mf | /case/vX.Y.Z/stl/paw3222.stl |
+| 1 | トップケース | 2（左右） | /case/v1.3.0/top.3mf | /case/v1.3.0/step/top_l.step, top_r.step |
+| 2 | ボトムケース | 2（左右） | /case/v1.3.0/bottom.3mf | /case/v1.3.0/step/bottom_l.step, bottom_r.step |
+| 3 | スイッチプレート | 2（左右） | /case/v1.3.0/plate.3mf | /case/v1.3.0/step/plate_l.step, plate_r.step |
+| 4 | スイッチカバー | 2 | /case/v1.3.0/slide.3mf | - |
+| 5 | リセットスティック | 2 | /case/v1.3.0/stick.3mf | - |
+| 6 | ノブ | 1 | /case/v1.3.0/nob.3mf | /case/v1.3.0/step/nob.step |
+| 7 | トラックボールカバー | 1 | /case/v1.3.0/torabo_case.3mf | /case/v1.3.0/step/torabo_case.stl |  
+| 8 | センサーモジュール固定パーツ | 1 | /case/v1.3.0/sensor_case.3mf | /case/v1.3.0/step/sensor_case.step |
 | 9 | キーキャップ(ノーマル) | 34 | /keycap/3mf/keycaps.3mf | /keycap/stl/keycap_nomal_mjf.stl |
 | 10 | キーキャップ(ホーミング) | 2 | /keycap/3mf/keycaps.3mf | /keycap/stl/keycap_flat_mjf.stl |
 | 11 | キーキャップ(コンベックス) | 5 | /keycap/3mf/keycaps.3mf | /keycap/stl/keycap_flat_mjf.stl |
@@ -53,10 +53,10 @@ v1.1.0と互換性があるのでv1.1.0の使用をおすすめします。
 | 部品名 | 説明 | 参考購入先 |
 | -- | -- | -- |
 | スポンジシート(3mm) | ボトムケースに敷くスポンジシート。ポロンスポンジがへたりにくくておすすめです。 | https://www.amazon.co.jp/dp/B00G468722?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1 |
-| スポンジシート(2mm) | トップケースに貼るスポンジシート。使いやすくてテープ状のものを使用していますが、2mmくらいの厚さであればなんでも。<br> 透明ケースの場合は100均等にある透明の両面テープが見た目綺麗でおすすめです。 | https://www.amazon.co.jp/dp/B0DDJDYVHX?ref_=ppx_hzsearch_conn_dt_b_fed_asin_title_5&th=1 |
+| スポンジシート(1mm,2mm) | トップケースに貼るスポンジシート。シールタイプの厚さ1mm、2mmのものがおすすめ。<br> 透明ケースの場合は100均等にある透明の両面テープが見た目綺麗でおすすめです。 | https://www.amazon.co.jp/dp/B0DDJDYVHX?ref_=ppx_hzsearch_conn_dt_b_fed_asin_title_5&th=1 |
 | マグネット(直径2mm × 厚さ1mm) | トラックボールケースとトップケースを着脱可能にするための磁石 | https://www.amazon.co.jp/dp/B0FXB1RH63?ref_=ppx_hzsearch_conn_dt_b_fed_asin_title_1&th=1 |
 | ベアリング(外形4mm 内径1.5mm 幅2mm) | トラックボールのベアリング | https://www.amazon.co.jp/dp/B0CV75YFQY?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1 |
-| ネジ(M1.4 × 4~5mm) | ベアリングを固定するねじ。リンク先のものは違いますが、マグネットとくっつくタイプのものだとよいです。 | https://www.amazon.co.jp/dp/B076ZCH1NJ?ref_=ppx_hzsearch_conn_dt_b_fed_asin_title_1 |
+| ネジ(M1.4 × 4~5mm) | ベアリングを固定するねじ | https://www.amazon.co.jp/dp/B076ZCH1NJ?ref_=ppx_hzsearch_conn_dt_b_fed_asin_title_1 |
 
 
 ## 発注方法（JLC3DP）
